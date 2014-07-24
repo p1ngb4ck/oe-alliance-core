@@ -1,5 +1,6 @@
---- a/drivers/media/usb/em28xx/em28xx-cards.c
-+++ b/drivers/media/usb/em28xx/em28xx-cards.c
+diff --git a/drivers/media/usb/em28xx/em28xx-cards.c b/drivers/media/usb/em28xx/em28xx-cards.c
+--- drivers/media/usb/em28xx/em28xx-cards.c
++++ drivers/media/usb/em28xx/em28xx-cards.c
 @@ -55,6 +55,14 @@ module_param(disable_usb_speed_check, in
  MODULE_PARM_DESC(disable_usb_speed_check,
  "override min bandwidth requirement of 480M bps");

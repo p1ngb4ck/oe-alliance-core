@@ -12,7 +12,7 @@ ${DVBPROVIDER}-module-em28xx-dvb \
 ${DVBPROVIDER}-module-tda18271c2dd1 \
 ${DVBPROVIDER}-module-drxk \
 ${DVBPROVIDER}-module-tuner \
-firmware-dvb-fe-drxk-delock \
+firmware-dvb-fe-drxk_a3 \
 "
 
 PV = "1.0"

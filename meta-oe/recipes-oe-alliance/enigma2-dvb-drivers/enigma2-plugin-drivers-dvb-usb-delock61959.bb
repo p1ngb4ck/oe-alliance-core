@@ -22,6 +22,10 @@ PR = "r2"
 PACKAGES = "${PN}"
 FILES_${PN} += "${sysconfdir}/modprobe.d"
 
+CONFFILES = "/etc/modprobe.d/em28xx.conf"
+
 do_install() {
+  install -d ${D}/etc
+  install -d ${D}/etc/modprobe.d
   install -m 0644 ${WORKDIR}/delock61959_em28xx.conf ${D}/etc/modprobe.d/em28xx.conf
 }
